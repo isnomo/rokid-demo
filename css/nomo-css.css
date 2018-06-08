@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: normal;
+     /* font-size: 62.5%; 10 ÷ 16 × 100% = 62.5%  2.4em × 10 = 24px */
+    vertical-align: baseline;
+    font-family: "PingFang SC","HiraginoSansGB-W3", "STHeitiSC-Light", "Microsoft YaHei", SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+:focus {
+    outline: 0;
+}
+html{
+  font-size: 62.5%; /*10 ÷ 16 × 100% = 62.5%*/  /*2.4em × 10 = 24px */
+
+}
+body{
+	/* light font */
+  font-family: "PingFang SC","HiraginoSansGB-W3", "STHeitiSC-Light", "Microsoft YaHei", SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*webkit字体抗锯齿 */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+}
+a{
+    font-family: "PingFang SC","HiraginoSansGB-W3", "STHeitiSC-Light", "Microsoft YaHei", SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    font-weight: normal;
+}
+
+tr {
+    line-height: 30px;
+}
+
+img, iframe {
+    border: none;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+input, textarea, select, button {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+object {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset, figure {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+
+*,
+*:after,
+*::before {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.overflow-hidden{
+    overflow: hidden !important;
+}
+
+.title{
+    font-family: "Microsoft YaHei","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
+    padding: .5em 0;
+}
+.hide{
+    display: none;
+}
+
+.in-block{
+    display: inline-block;
+}
+
+.text-center{
+    text-align: center;
+}
+.right{
+    float: right
+}
+.left{
+    float: left;
+}
+.dashed{
+    border-top: 1px dashed #ddd;
+}
+.clear{
+     clear: both;
+}
+.list-inline > li{
+  float: left;
+}
+.text-ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.longText-ellipsis{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+/*电脑*/
+@media screen  and (min-width:1400px){
+    
+}
+/*笔记本*/
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+
+}
+/*横向平板*/
+@media screen and (max-width: 1199px) and (min-width: 1023px){
+
+}
+/*平板*/
+@media screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+/*笔记本高度*/
+@media screen and (max-height: 767px) and (min-height: 600px){
+
+}
+/*手机*/
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-height: 601px) and (min-height: 350px){
+
+}

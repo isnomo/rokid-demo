@@ -1,0 +1,105 @@
+.banner{
+  background: #FBFBFB;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  .banner-main{
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    margin-bottom: 40px;
+    .banner-main__text{
+      width: 600px;
+      text-align: center;
+      padding-top: 75px;
+      color: #000000;
+      h3{
+        font-weight: 600;
+        font-size: 40px;
+        opacity: 0;
+        transition: all .5s cubic-bezier(0.38, 0.32, 0.36, 0.98);
+      }
+      h2{
+        span{
+          font-family: Avenir-Black;
+          font-size: 120px;
+          letter-spacing: 20px;
+          display: inline-block;
+          transform: rotateY(-90deg);
+          opacity: 0;
+          transition: all .5s cubic-bezier(0.38, 0.32, 0.36, 0.98);
+        }
+        // font-family: Avenir-Black;
+        // font-size: 120px;
+        // letter-spacing: 20px;
+      }
+      p{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        opacity: 0;
+        transition: all .5s cubic-bezier(0.38, 0.32, 0.36, 0.98);
+      }
+    }
+    .banner-main__img{
+      // width: 45%;
+      padding-left: 100px;
+      img{
+        width: 100%;
+        max-width: 430px;
+      }
+    }
+  }
+  .pebble-video{
+    position: relative;
+    // transform: skew(-60deg, 9deg) scale(0.79) translate(90px,52px);
+    .pebble-video__player{
+      position: relative;
+      img{
+        width: 100%;
+      }
+    }
+    .pebble-video__shade{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background: rgba(3, 188, 239, 0.8);
+      transform: skew(-60deg, 9deg) translate(90px, 52px);
+    }
+  }
+}
+
+
+
+/*电脑*/
+@media screen  and (min-width:1400px){
+}
+/*笔记本*/
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+   
+}
+@media screen and (max-width: 1199px) and (min-width: 1023px){
+}  
+/*横向平板*/
+@media screen and (max-width: 1099px) and (min-width: 1023px){
+}   
+ 
+/*平板*/
+@media screen and (max-width: 1023px) and (min-width: 768px){
+}
+/*笔记本高度*/
+@media screen and (max-height: 767px) and (min-height: 600px){
+
+}
+/*手机*/
+@media screen and (max-width: 767px){
+}
+
+@media screen and (max-width: 320px){
+}
